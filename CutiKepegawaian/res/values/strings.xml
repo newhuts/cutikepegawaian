@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cuti Kepegawaian</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="action_about">About Us</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Sisa Cuti</item>
+        <item >Histori Cuti</item>
+        <item >Buat Cuti</item>
+        <item >Lihat Cuti</item>
+        <item >Keluar</item>
+        
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_photos</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+		<string-array name="cuti_array">
+	        <item id = "1">Pilih jenis Cuti</item>
+	        <item id = "2">Izin</item>
+	        <item id = "3">Sakit</item>
+	        <item id = "4">tugas Luar</item>
+	        <item id = "5">Cuti Tahunan</item>
+   		 </string-array>
+   		 
+		<!-- string xml layout -->
+		<!-- all -->
+		<string name="aboutus">TENTANG KAMI</string>
+		<string name="Terima">Terima Kasih Kepada:</string>
+		<string name="ini">Sisa Cuti Tahun Ini</string>
+		<string name="lalu">Sisa cuti tahun Lalu</string>
+		<string name="total">Total Sisa Cuti</string>
+		<string name="desc"></string>
+		<string name="uin">User Info</string>
+		<string name="PIN">PIN</string>
+		<string name="Nama">Nama</string>
+		<string name="Pengajuan">Pengajuan</string>
+		<string name="Tanggalpermintaan">Tanggal permintaan</string>
+		<string name="TanggalMulai">Tanggal Mulai</string>
+		<string name="TanggalBerakhir">Tanggal Berakhir</string>
+		<string name="JenisDanKeterangan">Jenis Dan Keterangan</string>
+		<string name="JenisPengajuan">Jenis Pengajuan</string>
+		<string name="Keterangan">Keterangan</string>
+		<string name="Accept">Accept</string>
+		<string name="JumlahHari">Jumlah Hari</string>
+		<string name="Username">Username</string>
+		<string name="Password">Password</string>
+		<string name="login">Masuk</string>
+		<string name="InformasiPembuat">Informasi Pembuat:</string>
+		<string name="FarhamRujuli">Farham Rujuli</string>
+		<string name="npmjali">201043500690</string>
+		<string name="npmnana">201043500691</string>
+		<string name="RatnaPanduPratami">Ratna Pandu Pratami</string>
+		<string name="npmaboot">201043500695</string>
+		<string name="TaufikWidhiarto">Taufik Widhiarto</string>
+		<string name="npmbapas">201043500766</string>
+		<string name="MuhammadThoriqBalvas">Muhammad Thoriq Balvas</string>
+		<string name="close">Close</string>
+		<string name="PermohonanCuti">Permohonan Cuti</string>
+		<string name="Deskripsi">Deskripsi</string>
+		<string name="KIRIM">KIRIM</string>
+		<string name="Hitunghari">Hitung hari</string>
+		<string name="HistoriCutiAnda">Histori Cuti Anda</string>
+		<string name="SD">S/D</string>
+</resources>

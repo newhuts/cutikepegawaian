@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coba"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/diorama_anri_jakarta_3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:maxWidth="10dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nama"
+        android:layout_below="@+id/imageView1"
+        android:textColor="@color/actionbar"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pin"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:textColor="@color/Brown"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/aaaaa"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="15dp"
+        android:background="@color/SlateGray" >
+
+        <TextView
+            android:id="@+id/thnlalu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/Coral"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="@string/lalu"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/aaaaa"
+        android:layout_marginTop="2dp"
+        android:background="@color/SlateGray" >
+
+        <TextView
+            android:id="@+id/thnini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/Coral"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:text="@string/ini"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/RelativeLayout01"
+        android:layout_marginTop="2dp"
+        android:background="@color/SteelBlue" >
+
+        <TextView
+            android:id="@+id/thntotaal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/Chartreuse"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:text="@string/total"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

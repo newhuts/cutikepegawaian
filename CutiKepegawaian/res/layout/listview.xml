@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" >
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_x="5dp"
+            android:layout_y="5dp"
+            android:background="@color/DarkTurquoise" >
+
+            <TextView
+                android:id="@+id/jce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="@color/Coral"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/nce"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_x="60dp"
+            android:layout_y="2dp"
+            android:text=""
+            android:textColor="@color/Coral"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tnamaee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="61dp"
+            android:layout_y="20dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tawale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="60dp"
+            android:layout_y="35dp"
+            android:text=""
+            android:textColor="@color/Gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="116dp"
+            android:layout_y="35dp"
+            android:text="@string/SD"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/takhire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="140dp"
+            android:layout_y="35dp"
+            android:text=""
+            android:textColor="@color/Gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tperee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="206dp"
+            android:layout_y="7dp"
+            android:text=""
+            android:textColor="@color/Gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/statuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="205dp"
+            android:layout_y="35dp"
+            android:background="@drawable/counter_bg"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:text="@string/Accept"
+            android:textColor="@color/LightGreen"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/idpermintaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="240dp"
+            android:layout_y="20dp" 
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/pintet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="257dp"
+            android:layout_y="38dp"
+            android:visibility="gone"  />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

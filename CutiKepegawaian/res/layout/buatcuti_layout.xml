@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="442dp"
+        android:background="@color/GhostWhite" >
+
+            <EditText
+                android:id="@+id/tglmulai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/spinner1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:focusable="false"
+                android:hint="@string/TanggalMulai" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tglmulai"
+        android:layout_alignRight="@+id/tglmulai"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/tglselesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tglmulai"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:focusable="false"
+        android:hint="@string/TanggalBerakhir" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/kete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/jmlhari"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/Keterangan" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gainsboro" >
+
+        <TextView
+            android:id="@+id/hak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/PermohonanCuti" />
+
+        <TextView
+            android:id="@+id/pinsesion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/pinteres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:alpha="10"
+        android:background="@drawable/button"
+        android:text="@string/KIRIM"
+        android:textColor="@color/White"
+        android:textColorHint="@color/AntiqueWhite" />
+
+    <TextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/kirim"
+        android:layout_alignBottom="@+id/kirim"
+        android:layout_toLeftOf="@+id/jmlhari" />
+
+    <EditText
+        android:id="@+id/jmlhari"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kete"
+        android:layout_below="@+id/tglselesai"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="@string/JumlahHari"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/hitunggs"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/jmlhari"
+        android:layout_alignBottom="@+id/jmlhari"
+        android:layout_marginLeft="28dp"
+        android:layout_toRightOf="@+id/jmlhari"
+        android:background="@drawable/button"
+        android:text=""
+        android:textColor="@color/White" />
+        
+    </RelativeLayout>
+
+</ScrollView>
